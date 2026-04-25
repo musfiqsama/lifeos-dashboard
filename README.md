@@ -38,9 +38,7 @@ npm run dev
 npm run build
 ```
 
-## 🌐 Live Demo
 
-(Add your GitHub Pages link here after deploy)
 
 ## 📌 Future Improvements
 
