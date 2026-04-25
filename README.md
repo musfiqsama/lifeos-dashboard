@@ -1,28 +1,54 @@
-# LifeOS Student Dashboard
+# 🌿 LifeOS – Student Productivity Dashboard
 
-Final rebuild using the Phase 2 base as the locked UI/layout foundation, with Phase 3, Phase 4 and Phase 5 features added without changing the original base direction.
+LifeOS is a modern and minimal productivity system designed for students to manage their entire academic life in one place.
 
-## Features
-- Dashboard with academic, productivity and exam overview
-- Academic CGPA workspace
-- Goals, Tasks, Habits and Notes
-- Study Analyzer
-- Routine and Schedule
-- Pomodoro Timer
-- Calendar View
-- Exam Countdown
-- Analytics Page
-- Global Search
-- Achievement Badges
-- Focus Mode
-- Reports
-- Backup and Restore
+## 🚀 Features
 
-## Run Locally
+* 📊 Academic tracking (CGPA & courses)
+* ✅ Task & deadline management
+* 🔁 Habit tracking system
+* 🧠 Notes for quick study
+* 📅 Calendar & exam planner
+* ⏱ Focus timer (Pomodoro)
+* 📈 Productivity analytics
+
+## 🎨 UI Design
+
+* Clean and premium light theme
+* Green-based modern UI
+* Fully responsive layout
+* Minimal and distraction-free experience
+
+## 🛠 Tech Stack
+
+* React (Vite)
+* JavaScript (ES6+)
+* CSS
+
+## 📦 Run Locally
+
 ```bash
 npm install
 npm run dev
 ```
 
-## Author
-Made by Sama
+## 🔨 Build
+
+```bash
+npm run build
+```
+
+## 🌐 Live Demo
+
+(Add your GitHub Pages link here after deploy)
+
+## 📌 Future Improvements
+
+* User authentication (Firebase)
+* Cloud data storage
+* Advanced analytics
+* Mobile app version
+
+## 👨‍💻 Author
+
+Sama
