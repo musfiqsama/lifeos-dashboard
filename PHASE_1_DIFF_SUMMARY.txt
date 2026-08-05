@@ -1,0 +1,26 @@
+Only in .: .gitignore
+Only in .: BASELINE_MANIFEST.md
+Only in .: CHANGELOG.md
+Only in .: PHASE_0_AUDIT.md
+Only in .: PHASE_1_DIFF_SUMMARY.txt
+Only in .: PHASE_1_VERIFICATION.md
+Files /tmp/lifeos_original_phase1/README.md and ./README.md differ
+Only in .: package-lock.json
+Files /tmp/lifeos_original_phase1/package.json and ./package.json differ
+Files /tmp/lifeos_original_phase1/src/App.jsx and ./src/App.jsx differ
+Only in ./src/components: ErrorBoundary.jsx
+Only in ./src/components: Feedback.jsx
+Only in ./src: constants
+Files /tmp/lifeos_original_phase1/src/data/storage.js and ./src/data/storage.js differ
+Only in ./src/data: storage.test.js
+Files /tmp/lifeos_original_phase1/src/main.jsx and ./src/main.jsx differ
+Files /tmp/lifeos_original_phase1/src/pages/Academic.jsx and ./src/pages/Academic.jsx differ
+Files /tmp/lifeos_original_phase1/src/pages/Analyzer.jsx and ./src/pages/Analyzer.jsx differ
+Files /tmp/lifeos_original_phase1/src/pages/Backup.jsx and ./src/pages/Backup.jsx differ
+Files /tmp/lifeos_original_phase1/src/pages/Calendar.jsx and ./src/pages/Calendar.jsx differ
+Files /tmp/lifeos_original_phase1/src/pages/Dashboard.jsx and ./src/pages/Dashboard.jsx differ
+Files /tmp/lifeos_original_phase1/src/pages/Exams.jsx and ./src/pages/Exams.jsx differ
+Files /tmp/lifeos_original_phase1/src/pages/Tasks.jsx and ./src/pages/Tasks.jsx differ
+Files /tmp/lifeos_original_phase1/src/styles.css and ./src/styles.css differ
+Only in ./src: utils
+Only in .: vite.config.js

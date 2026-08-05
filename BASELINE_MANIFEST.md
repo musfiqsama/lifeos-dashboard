@@ -1,0 +1,44 @@
+# Baseline Manifest
+
+Canonical archive: `lifeos-light-clean-fixed.zip`
+
+Archive SHA-256:
+
+```text
+75172a94684895b76dd469cef02a55f706b0898fe38d4db8d295f3a81f05d50f  /mnt/data/lifeos-light-clean-fixed.zip
+```
+
+Original source file hashes:
+
+```text
+116334d2857fa511537b730320c22a4858bad42dd869ef4b057f1a80266cde53  ./README.md
+4de64202f2e1af64cdd1e7bd9b09db08360e1c92c23833467ba484ec72c3e227  ./REDESIGN_NOTES.md
+29bed847501a37b5aab037761ac3dfecf01d0b044788fc457a8c82cbc8c1d337  ./index.html
+525d4a705bc226e122fa40a78e05046725ae35a3e27508b515d385d16d1a3685  ./package.json
+7f24d3383a90073287cadacc2f510e4a6c8754fbdd2e1940b730e949e995231c  ./src/App.jsx
+1878a7db5c41cc1e2d0c515ec97dd31e474671c6db8092bff05b3c4ad731c157  ./src/components/Card.jsx
+1881b244d3a33ee200793f8a77b1fdb1dc34e5134c16444d0392404b515dd5bb  ./src/components/Header.jsx
+d885cfa3b8de8d4bb62cf64ded5d81ce2bd04ea37e6606002dab7d25f103c525  ./src/components/LogoMark.jsx
+e5161a05882e23d35ad941dac6088a399f1a152b09326c37609312da43dd6834  ./src/components/Sidebar.jsx
+66c0898531481dda45622840b7aa6853bf00e6f1b193fe2449b241deb9aac4fb  ./src/data/storage.js
+2ec4bc653249c65ae05ba956ba10ff79aaa1c0faccefd6db289b1f306f688fdc  ./src/main.jsx
+4de81236a3d57bb9161ac54d66c84b504aeb64846f8008b594684eccc0ebe54f  ./src/pages/Academic.jsx
+6c906bae36f8cbafdc76fa83e03af54123d4e44adf5dd4d20cf00711a0a5abf1  ./src/pages/Achievements.jsx
+b1f290cabb2f0cc7fbdb862fa460e05d88926be835d759a4014c38cbf89e38c1  ./src/pages/Analytics.jsx
+3f104db4947e1b520d760225d8d93949e50c82c1c35e910b360f1a9d165ef184  ./src/pages/Analyzer.jsx
+46fe65b72e3dd4fb6f3fcb3bd04a9affc05c0f3eee7559bfc881803129250dfb  ./src/pages/Backup.jsx
+f15bb92a372fa8c22fe6955e97040c095bfac9604780cc83dbf8a9055f96f289  ./src/pages/Calendar.jsx
+b76f06c1e2d1ab0e0de475dc1d1e588ed7ea5a4f5c7423023b2f6f764f8d33b0  ./src/pages/Dashboard.jsx
+60bfcbb72967ad206b776db5e59096e2022beaec1a5a5231984d08ad7bcb51cd  ./src/pages/Exams.jsx
+bb5cbb1dce7bce5c27112fc9bb0e64850edf45588c7dcdf3ddffc8d688e64397  ./src/pages/Focus.jsx
+312588a0dd62ca219d1dc97740bca6f286892816dd9e731fbab1ead9147674a6  ./src/pages/Goals.jsx
+0ab641d1cc296cc3b479f5e32038b8c7c76b5ce35f8a1300677a9a22fbfa3b73  ./src/pages/Habits.jsx
+ecefeb3c5aec98e4d5e749e97aa9ad44cde9dfe5e5c6c83c65a925bbe87c8b04  ./src/pages/Home.jsx
+e8b597025e6d44a8da576da5a4a7b5e15d23297ea938285f2ac0e66f5e2c7a0d  ./src/pages/Notes.jsx
+cbf85cec089ff801081c9381d6999664f6e05d7281f64683e1e63eb1a2c04daf  ./src/pages/Reports.jsx
+d5001de798bc0b17f6e4fed91811d24f6fbdf24c4d82c6af94acbd2a98e82cb5  ./src/pages/Routine.jsx
+b3b8aca3ba85594460bf54a10cfe14d9763b04dbb77475181b935ca5ba950719  ./src/pages/Search.jsx
+10606fefe55f7944d897d76b8c337b461d21979c6477a192e2f8ad3c16088a77  ./src/pages/Tasks.jsx
+648fe323b0500cb4835d23e49426c89b8d2f87133c8c60306e7ac0c109563258  ./src/pages/Timer.jsx
+936e3cf6283890f51733cb9567cf73c6c308a477daeb737058517d0031ff308e  ./src/styles.css
+```

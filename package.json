@@ -1,20 +1,29 @@
 {
   "name": "lifeos-student-dashboard",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --test",
+    "check": "npm run test:stable && npm run build",
+    "verify:source": "node scripts/verify-source.mjs",
+    "test:stable": "npm run test && npm run verify:source",
+    "build:github": "vite build --base=/lifeos-dashboard/"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "lucide-react": "latest",
-    "recharts": "latest"
+    "lucide-react": "1.11.0",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "recharts": "3.8.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.1",
+    "vite": "8.0.10"
+  }
 }

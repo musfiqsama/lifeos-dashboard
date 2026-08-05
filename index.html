@@ -3,7 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LifeOS Student Dashboard</title>
+    <title>LifeOS Web 2.0</title>
+    <meta name="description" content="LifeOS is a private, local-first academic and productivity workspace for university students." />
+    <meta name="theme-color" content="#4f46e5" />
+    <script>
+      (() => {
+        try {
+          const raw = localStorage.getItem('lifeos-v2base-final');
+          const parsed = raw ? JSON.parse(raw) : null;
+          const data = parsed?.data || parsed || {};
+          const preference = Array.isArray(data.uiPreferences) ? data.uiPreferences[0] : null;
+          const requested = preference?.theme || 'system';
+          const dark = requested === 'dark' || (requested === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+          document.documentElement.dataset.density = preference?.density || 'comfortable';
+          document.documentElement.dataset.reduceMotion = preference?.reduceMotion ? 'true' : 'false';
+        } catch {
+          document.documentElement.dataset.theme = 'light';
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
